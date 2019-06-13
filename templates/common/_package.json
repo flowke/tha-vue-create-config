@@ -8,15 +8,14 @@
     "build": "tha-v build"
   },
   "dependencies": {
-    {% spaceless %}
-    {% for key, val in dependencies %}
-      {% if loop.last %}"
-      {{key}}": "{{val}}"
-      {% else loop.last %}
-      "{{key}}": "{{val}}",
-      {% endif %}
-    {% endfor %}
-     {% endspaceless %}
+  {% for key, val in dependencies %}
+  {% if loop.last %}
+    "{{key}}": "{{val}}"
+  {% else %}
+    "{{ key }}": "{{val}}",
+  {% endif %}
+  {% endfor %}
+
   },
   "devDependencies": {
 

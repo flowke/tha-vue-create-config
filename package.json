@@ -9,9 +9,15 @@
   },
   "keywords": [],
   "author": "",
+  "scripts":{
+    "test": "node test"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/flowke/tha-vue-create-config/issues"
   },
-  "homepage": "https://github.com/flowke/tha-vue-create-config#readme"
+  "homepage": "https://github.com/flowke/tha-vue-create-config#readme",
+  "dependencies": {
+    "swig": "^1.4.2"
+  }
 }
