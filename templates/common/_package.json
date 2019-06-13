@@ -1,6 +1,18 @@
 {
   "name": "{{packageName}}",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js"
+  "description": "awesome app {{packageName}} :) ",
+  "main": "index.js",
+  "scripts": {
+    "start": "tha-v dev",
+    "build": "tha-v build",
+  },
+  "dependencies": {
+    {% for key, val in dependencies %}
+    "{{key}}": "{{val}}"
+    {% endfor %}
+  },
+  "devDependencies": {
+    
+  }
 }
