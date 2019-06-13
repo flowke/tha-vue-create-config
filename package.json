@@ -1,6 +1,6 @@
 {
   "name": "tha-vue-create-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "scripts":{
+  "scripts": {
     "test": "node test"
   },
   "license": "ISC",
