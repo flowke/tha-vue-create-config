@@ -1,6 +1,6 @@
 
 <template>
-  <div>welcome to tha vue!</div>
+  <div>welcome to tha!</div>
 </template>
 
 

@@ -1,6 +1,6 @@
 
 <template>
-  <div>welcome to tha vue!</div>
+  <div>home page here!</div>
 </template>
 
 
