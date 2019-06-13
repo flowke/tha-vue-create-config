@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "tha-v dev",
-    "build": "tha-v build",
+    "build": "tha-v build"
   },
   "dependencies": {
     {% for key, val in dependencies %}
-    "{{key}}": "{{val}}"
+    {% spaceless %}
+    "{{key}}": "{{val}}",
+    {% endspaceless %}
     {% endfor %}
   },
   "devDependencies": {
-    
+
   }
 }
