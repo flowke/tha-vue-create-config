@@ -1,5 +1,5 @@
 module.exports = {
-  router: true,
+  puta: true, // default
   vuex: true,
   devServer: {
     port: 3006

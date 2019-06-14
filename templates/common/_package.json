@@ -18,6 +18,12 @@
 
   },
   "devDependencies": {
-
+    {% for key, val in devDependencies %}
+    {% if loop.last %}
+      "{{key}}": "{{val}}"
+    {% else %}
+      "{{ key }}": "{{val}}",
+    {% endif %}
+    {% endfor %}
   }
 }
