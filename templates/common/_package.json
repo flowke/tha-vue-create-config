@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "awesome app {{packageName}} :) ",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "tha-v dev",
     "build": "tha-v build"

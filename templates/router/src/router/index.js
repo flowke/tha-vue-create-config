@@ -8,7 +8,7 @@ export default {
       children: [
         {
           path: '',
-          component: '@pages.home.home'
+          component: '@pages.home/home'
         }
       ]
     },
