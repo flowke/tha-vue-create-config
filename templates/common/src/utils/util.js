@@ -131,6 +131,10 @@ export function ordered(arr, op = {}) {
 }
 
 // 
+// options 
+  // piect
+  // interval
+// callback(acc, piece, raw)
 export function pieces(arr, options, callback){
   let opType = getType(options);
   let cbType = getType(callback);
@@ -146,7 +150,6 @@ export function pieces(arr, options, callback){
 
   let interval = 60,
     piece = 10;
-
 
   if (opType==='object'){
     if (options.interval) interval = options.interval
